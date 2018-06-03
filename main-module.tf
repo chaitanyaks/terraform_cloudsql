@@ -7,7 +7,11 @@ terraform {
 
 // Configure the Google Cloud provider
 provider "google" {
+<<<<<<< HEAD
   credentials = "${file("../../account.json")}"
+=======
+  credentials = "${file("/home/jenkins/account.json")}"
+>>>>>>> d0dd8e9457779472652f0e102771d5763162194b
   project     = "generated-wharf-205016"
   region      = "us-east1-b"
 }
