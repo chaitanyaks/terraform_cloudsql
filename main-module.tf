@@ -14,7 +14,7 @@ provider "google" {
 
 
 resource "google_sql_database_instance" "master1" {
-  name = "postgres-instance-1"
+  name = "postgres-instance-4"
   database_version = "POSTGRES_9_6"
   region = "us-central1"
 
