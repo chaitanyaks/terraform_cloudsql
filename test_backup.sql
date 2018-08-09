@@ -64,7 +64,7 @@ ALTER TABLE public.family OWNER TO postgres;
 --
 
 COPY public.emp (emp_id, emp_name, emp_sql) FROM stdin;
-10021	arpit	50000
+10021	arpit	100000
 \.
 
 
